@@ -11,6 +11,10 @@
   text-align: left;
 }
 
+.member0 {
+  image: url(img/member0.jpg);
+}
+
 /* Dropdown Button */
 .main-nav {
   position: right;
@@ -65,13 +69,15 @@
   display:block;
 }
 .footer p {
+  background-color: #8B008B;
+  color: white;
   position: fixed;
   left:0px;
   bottom:10px;
   height:30px;
   width: 100%;
-  background: #800080;
 }
+
 /* Media Queries */
 @media (min-width: 769px) {
   .main-header,{
