@@ -29,39 +29,42 @@ function sendData(data) {
     FD.append(name, data[name]);
   }
 
-  // Define what happens on successful data submission
-  XHR.addEventListener('load', function(event) {
-    alert('Yeah! Data sent and response loaded.');
-  });
+  // Define what happens on successful data submission to be used in the future
+  // XHR.addEventListener('load', function(event) {
+  //   alert('Yeah! Data sent and response loaded.');
+  // });
 
-  // Define what happens in case of error
-  XHR.addEventListener('error', function(event) {
-    alert('Oops! Something went wrong.');
-  });
+  // Define what happens in case of error to be used in the future
+  // XHR.addEventListener('error', function(event) {
+  //   alert("Oops! Something went wrong.");
+  // });
 
-  // Set up our request
-  XHR.open('POST', 'mailTo:hoaplumrun@gmail.com');
+  // Set up our request - possibly to be used in the future
+// window.location.href = "mailto:hoaplumrun@gmail.com"
 
   // Send our FormData object; HTTP headers are set automatically
-  XHR.send(FD);
+//   XHR.send(FD);
 }
 
 // Contact form validation
 
-// var form = document.getElementsByTagName('form')[0];
-// var email = document.getElementById('mail)
-// var error = document.querySelector('.error');
-//
-// email.addEventListener("input", function(event) {
-//   if (email.validity.valid) {
-//     error.innerHTML = "";
-//     error.className = "error";
-//   }
-// }, false);
-// form.addEventListener("submit", function (event) {
-//   if (!email.validity.valid) {
-//     error.innterHTML = "Email required";
-//     error.className = "error active";
-//     event.preventDefault();
-//   }
-// }, false);
+var form = document.getElementsByTagName('form')[0];
+var email = document.getElementById('mail')
+var error = document.querySelector('.error');
+var submit = document.getElementById('buttonSubmit')
+
+email.addEventListener("input", function(event) {
+  if (email.validity.valid) {
+    error.innerHTML = "";
+    error.className = "error";
+  }
+}, false);
+submit.addEventListener("click", function (event) {
+  if (!email.validity.valid) {
+    error.innerHTML = "Email required";
+    error.className = "error active";
+    event.preventDefault();
+  } else {
+    sendData();
+  }
+}, false);

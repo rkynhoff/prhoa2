@@ -24,7 +24,7 @@
     </div>
 
 <!-- Contact form information fields -->
-  <form class="contactForm" action="indexV2.html" method="post">
+  <form class="contactForm" action="indexV2.html" method="post" name="form">
     <div class="firstName">
       <label for="frstNm">First Name</label>
       <input type="text" id="frstNm" name="user_first_name">
@@ -43,6 +43,7 @@
     <div class="mailTo">
       <label for="mail">E-mail</label>
       <input type="email" id="mail" name="user-email">
+      <span class="error"></span>
     </div>
 
     <div class="message">
@@ -51,11 +52,11 @@
     </div>
 
     <div class="buttonSubmit">
-      <button type="submit" name="buttonSubmit" onclick="sendData({test:'ok'})">Submit Your Feedback</button>
+      <button id="buttonSubmit" name="buttonSubmit">Submit Your Feedback</button>
     </div>
 
     <div class="buttonReset">
-      <button type="reset" name="buttonReset" onclick="sendData({test:'notOK'})">Reset Form</button>
+      <button type="reset" name="buttonReset">Reset Form</button>
     </div>
   </form>
 
