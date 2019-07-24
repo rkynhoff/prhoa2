@@ -95,6 +95,19 @@
   }
 }
 
+@media (max-width: 739px) {
+  .main-header,{
+	   display: none;
+	}
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+  div.dropdown-content {
+    display: none;
+    }
+}
+
 @media (min-width: 1025px) {
 	.main-header {
 		flex-direction: row;
