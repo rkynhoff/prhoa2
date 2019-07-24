@@ -14,3 +14,7 @@ Included on the site are the following:
 
 The menu button and the contact form include JavaScript. The site is nowhere
 near where I intended it to be when I began and is in fact my 2nd version. 
+The main page text content will be minimal as the majority of action will eventually 
+be driven from the documents page and the contact form. As a result, no CSS has been
+coded for the content in each of the pages until I am able to discern exactly what 
+the board is looking for. 
