@@ -13,8 +13,12 @@ Included on the site are the following:
 6. A contact form.
 
 The menu button and the contact form include JavaScript. The site is nowhere
-near where I intended it to be when I began and is in fact my 2nd version. 
-The main page text content will be minimal as the majority of action will eventually 
+near where I intended it to be when I began and is in fact my 2nd version.
+The main page text content will be minimal as the majority of action will eventually
 be driven from the documents page and the contact form. As a result, no CSS has been
-coded for the content in each of the pages until I am able to discern exactly what 
-the board is looking for. 
+coded for the content in each of the pages until I am able to discern exactly what
+the board is looking for.
+
+NOTE: I could not figure out how to get the menu button to display in the mobile
+view. I worked with Joey some, but was not able to get his suggestions to work. :(
+But I really appreciated his help! 
