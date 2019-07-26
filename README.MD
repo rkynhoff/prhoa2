@@ -21,3 +21,24 @@ the board is looking for.
 
 A very special thank you goes out to Joey for helping me with the responsive
 design issues I was having. He's an asset to your mentoring team!
+
+CSS:
+Minimal styling for several reasons:
+-focused on my JS and getting the site to be responsive.
+-lack of content at this time (I've consulted with the board and they are
+   working to get me the information I need to finish things like adding picture
+   [yes I know about placeholders... timing was an issue there] and neighborhood history, etc.)
+-timing: I underestimated the time it would take to design the site to my initial
+   vision... #fail
+
+JS:
+-I created a dropdown button when the screen is below 740px (located in scriptV2.js)
+-I created a contact form which validates the email address (located in contact.js)
+   -It was also originally supposed to send the contact content to the HOA email
+      address, but I couldn't get that fucntionality to work properly without it
+      negatively impacted some of the previous JS.
+   -Additionally, there are two JS files since the form function only need to run
+      on one page while the button functions run on every page. I believe one of
+      the mentors (likely Joey) suggested this while we were working through some
+      JS bugs on the form itself and since the site is small, not public, and
+      running through my machine rather than a server. 
