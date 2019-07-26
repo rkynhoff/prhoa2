@@ -6,9 +6,14 @@
   background-color: #8B008B;
   font-family: 'Cambria',"Coda Caption",'IM Fell French Canon SC','Unlock','Fira Sans', sans-serif;
   color: white;
-  margin:  0 50px;
   padding: 10px;
   text-align: left;
+}
+
+main {
+  padding: 10px 20px 50px 20px;
+  margin-top: 16em;
+  margin-block-start: 2em;
 }
 
 .member0 {
@@ -65,18 +70,9 @@
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
+/* .show {
   display:block;
-}
-.footer p {
-  background-color: #8B008B;
-  color: white;
-  position: fixed;
-  left:0px;
-  bottom:10px;
-  height:30px;
-  width: 100%;
-}
+} */
 
 /* Media Queries */
 @media (min-width: 740px) {
@@ -89,6 +85,7 @@
 	}
   div.dropdown-content {
     display: flex;
+    margin-left: 3.15em;
     }
   button.dropbtn {
     display: none;
@@ -103,9 +100,9 @@
 		flex-direction: column;
 		align-items: center;
 	}
-  div.dropdown-content {
-    display: none;
-    }
+  div.show {
+    display:block;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -180,4 +177,16 @@ button {
 
 .error.active {
   padding: 0.3em;
+}
+
+/* footer */
+footer {
+  background-color: #8B008B;
+  color: white;
+  text-align: center;
+  position: fixed;
+  left :0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
 }
