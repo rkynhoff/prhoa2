@@ -3,7 +3,7 @@ Welcome to the new Plum Run HOA website.
 This site is intended to provide information for lot owners and residents
 of the Plum Run neighborhood located in Sellersburg, IN.
 
-Included on the site are the following:
+Included to be included on the site are the following:
 
 1. A brief introductory about the neighborhood and its history.
 2. A current list of Board Members.
@@ -19,6 +19,5 @@ be driven from the documents page and the contact form. As a result, no CSS has 
 coded for the content in each of the pages until I am able to discern exactly what
 the board is looking for.
 
-NOTE: I could not figure out how to get the menu button to display in the mobile
-view. I worked with Joey some, but was not able to get his suggestions to work. :(
-But I really appreciated his help! 
+A very special thank you goes out to Joey for helping me with the responsive
+design issues I was having. He's an asset to your mentoring team!
